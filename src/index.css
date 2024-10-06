@@ -1,0 +1,326 @@
+/* create user modal */
+.create-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.create-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-modal-content input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-btn {
+  width: 100%;
+  color: white;
+  background-color: #28a745;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close {
+  cursor: pointer;
+  float: right;
+}
+
+/* user details modal */
+
+.user-details-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-details-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.user-details {
+  text-align: center;
+}
+
+/* view user details */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+/* edit user dialog */
+
+.edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.edit-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.edit-modal input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 95%;
+}
+
+.edit-modal button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-update {
+  background-color: #007bff;
+}
+
+.btn-update:hover {
+  background-color: #0056b3;
+}
+
+/* delete modal dialog */
+
+.delete-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.delete-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+.delete-modal button
+{
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.delete {
+  background-color: blue;
+  margin-right: 20px;
+}
+
+.cancel {
+  background-color: red;
+}
+
+/* user table list */
+
+.user-table-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  overflow-x: auto;
+  display: block;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.user-table tr:hover {
+  background-color: #e2e6ea;
+}
+
+.btn-view, .btn-edit, .btn-delete {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-view {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-view:hover, .btn-edit:hover, .btn-delete:hover {
+  opacity: 0.9;
+}
+
+/* error message */
+
+.error {
+  color: red;
+  font-size: 0.875em;
+}
+
+/* loading spinner */
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+}
+
+.app {
+  position: relative;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .create-modal-content,
+  .user-details-modal-content,
+  .edit-modal-content,
+  .delete-modal-content,
+  .modal-content {
+    max-width: 90%;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .edit-modal input,
+  .create-modal-content input {
+    width: 92%;
+  }
+
+  .user-table th, .user-table td {
+    font-size: 0.875em;
+  }
+  .delete-modal button {
+    padding: 6px;
+    font-size: 0.75rem;
+  }
+  .btn-view, .btn-edit, .btn-delete {
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-view, .btn-edit, .btn-delete {
+    padding: 6px;
+    font-size: 0.75em;
+    margin-bottom: 5px;
+  }
+
+  .user-table th, .user-table td {
+    font-size: 0.75em;
+  }
+}
