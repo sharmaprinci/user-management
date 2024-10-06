@@ -22,7 +22,7 @@ The User Management Application is a web-based platform built with React, Vite, 
   
   npm create vite@latest my-react-app --template
   
- # Select a framework: select the React framework here using the downward arrow key.
+ ### Select a framework: select the React framework here using the downward arrow key.
 - Vanilla
 - Vue
 - React
@@ -33,19 +33,19 @@ The User Management Application is a web-based platform built with React, Vite, 
 - Qwik
 - Others
   
-# Select Variant: choose any variant of your choice using the downward arrow key,i.e: choose JavaScript
+### Select Variant: choose any variant of your choice using the downward arrow key,i.e: choose JavaScript
 - TypeScript
 - TypeScript + SWC
 - JavaScript
 - JavaScript + SWC
 
-  # Now, switch to my-react-app directory
+  ### Now, switch to my-react-app directory
   cd my-react-app
 
-  # Install Dependencies
+  ### Install Dependencies
   npm install
   
-  # Start Server, make sure check your port no on the terminal it may be different for you system.
+  ### Start Server, make sure check your port no on the terminal it may be different for you system.
 
   ➜  Local:   http://localhost:5173/
   
